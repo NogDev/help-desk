@@ -2,3 +2,16 @@
   {{ title }}
 </h1>
 <app-task-list></app-task-list>
+
+<br/>
+{{ user | json }}
+<br/>
+{{ text | uppercase }}
+<br/>
+{{ text | lowercase }}
+<br/>
+{{ percentValue | percent }}
+<br/>
+{{ date | date : 'yyyy/MM/dd'}}
+<br/>
+{{ money | currency }}
