@@ -7,12 +7,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { CommentsComponent } from './comments/comments.component';
+import { ValidingFormComponent } from './validing-form/validing-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskListComponent,
-    CommentsComponent
+    CommentsComponent,
+    ValidingFormComponent
   ],
   imports: [
     BrowserModule,
