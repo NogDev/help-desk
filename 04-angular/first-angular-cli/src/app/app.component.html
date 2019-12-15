@@ -1,8 +1,12 @@
+
 <h1>
   {{ title }}
 </h1>
 <app-task-list></app-task-list>
 
+<h1>
+  Pipes
+</h1>
 <br/>
 {{ user | json }}
 <br/>
@@ -17,6 +21,9 @@
 {{ money | currency }}
 <br/>
 <br/>
+<h1>
+  Diretivas
+</h1>
 <div *ngIf="isAdmin2">
   You are Administrator 2
 </div>
@@ -29,5 +36,6 @@
 </div>
 <br/>
 --------------------------------------------------
+<h1>Serviços</h1>
 <br/>
 <app-comments></app-comments>
