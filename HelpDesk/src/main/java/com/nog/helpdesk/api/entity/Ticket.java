@@ -13,7 +13,7 @@ import com.nog.helpdesk.api.enums.StatusEnum;
 
 @Document
 public class Ticket {
-	
+
 	@Id
 	private String id;
 
@@ -128,6 +128,4 @@ public class Ticket {
 		this.changes = changes;
 	}
 
-
-	
 }

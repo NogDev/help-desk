@@ -1,5 +1,6 @@
 package com.nog.helpdesk.api.entity;
 
+
 import java.util.Date;
 
 import org.springframework.data.annotation.Id;
@@ -64,4 +65,5 @@ public class ChangeStatus {
 	public void setStatus(StatusEnum status) {
 		this.status = status;
 	}
+
 }
