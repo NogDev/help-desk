@@ -25,7 +25,7 @@ public class User {
 	@Size(min = 6)
 	private String password;
 	
-	private ProfileEnum profileEnum;
+	private ProfileEnum profile;
 
 	public String getId() {
 		return id;
@@ -51,11 +51,11 @@ public class User {
 		this.password = password;
 	}
 
-	public ProfileEnum getProfileEnum() {
-		return profileEnum;
+	public ProfileEnum getProfile() {
+		return profile;
 	}
 
-	public void setProfileEnum(ProfileEnum profileEnum) {
-		this.profileEnum = profileEnum;
+	public void setProfile(ProfileEnum profile) {
+		this.profile = profile;
 	}
 }
